@@ -29,7 +29,7 @@ def download_model():
 download_model()
 
 # Load model
-model = tf.keras.models.load_model(MODEL_PATH)
+model = tf.keras.models.load_model("DenseNet121_Cocoa_diagnosis.keras")
 
 # Define class names and image size
 class_names = ['anthracnose', 'cssvd', 'healthy']
