@@ -105,7 +105,7 @@ if (form) {
     formData.append('image', file);
 
     try {
-      const response = await fetch('http://127.0.0.1:5000/predict', {
+      const response = await fetch('https://epic-wrongly-owl.ngrok-free.app 80/predict', {
         method: 'POST',
         body: formData,
       });
